@@ -1,0 +1,15 @@
+name: test
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - plotly
+  - pip:
+      - streamlit
+      - google-cloud-bigquery
+      - google-cloud-bigquery-storage
+      - pandas-gbq
+      - jupyterlab
